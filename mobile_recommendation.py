@@ -38,6 +38,7 @@ def recommend_products(query, sentiment_data):
 
 # Streamlit App Interface Design
 st.set_page_config(page_title="Mobile Recommendation Engine", page_icon="📱", layout="centered")
+st.image("https://www.pngkey.com/png/detail/853-8531776_best-deals-on-smartphones-2017-mobile-phones-png.png", use_column_width=True)
 
 # Title and description
 st.title("📱 Mobile Recommendation Engine")
