@@ -35,17 +35,6 @@ def recommend_products(query, sentiment_data):
     #return recommendations['Mobile Name'].head(5)
     #return recommendations[['Mobile Name', 'Textblob_Polarity']].head(5)
 
-# Streamlit App Interface
-# st.title("Product Recommendation Engine Based on Sentiment Analysis")
-
-# user_query = st.text_input("Enter your product preferences or query (e.g., best camera phone, lightweight, etc.)")
-
-# if user_query:
-#     # Get top 5 product recommendations
-#     recommended_products = recommend_products(user_query, sentiment_data)
-
-#     st.write("Top 5 Recommended Products:")
-#     st.dataframe(recommended_products)
 
 # Streamlit App Interface Design
 st.set_page_config(page_title="Mobile Recommendation Engine", page_icon="📱", layout="centered")
