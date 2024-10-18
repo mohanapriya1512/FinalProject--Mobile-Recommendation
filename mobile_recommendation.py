@@ -7,7 +7,7 @@ import cohere
 sentiment_data = pd.read_csv("Flipkart_mobile_reviews_Textblob_sentiment.csv")
 
 # Initialize Cohere (Replace with your Cohere API Key)
-cohere_api_key = 'ZFLrHZmWUzXJSGt8Xwf53kBnvzLT9uhgS3HR6Y9n'  # Replace with your actual API key
+cohere_api_key = '***********'  # Replace with your actual API key
 co = cohere.Client(cohere_api_key)
 
 # Function to recommend products based on user query
